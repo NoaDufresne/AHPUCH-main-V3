@@ -535,7 +535,7 @@ footer {
   z-index: 10;
   position: relative;
   height: fit-content;
-  max-width: 35dvw;
+  max-width: 50dvw;
   background: rgba(255, 255, 255, 0.032);
   color: rgba(255, 255, 255, 0.85);
   padding: 2em; /* Increased padding for better spacing */
@@ -612,4 +612,14 @@ button:hover::before {
   opacity: 0;
 }
 
+
+/* Use your custom SVG cursor */
+body {
+  cursor: url('lib/cursor.svg') 16 16, auto; 
+}
+
+/* Curseur après défilement */
+body.scrolled {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 40 40"><circle cx="20" cy="20" r="15" fill="white" fill-opacity="0.6"/></svg>') 20 20, auto;
+}
 

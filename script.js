@@ -166,3 +166,16 @@ gsap.to(transitionsLevels[9], {
     },
   },
 });
+
+
+  const body = document.body;
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 0) {
+      body.classList.add('scrolled'); // Ajouter la classe scrolled
+      document.querySelector('.scroll-indicator').style.display = 'none'; // Masquer l'indicateur
+    } else {
+      body.classList.remove('scrolled'); // Retirer la classe scrolled
+      document.querySelector('.scroll-indicator').style.display = 'flex'; // Afficher l'indicateur
+    }
+  });
+
