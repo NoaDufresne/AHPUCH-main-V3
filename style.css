@@ -154,7 +154,7 @@ section {
 
 .text-content {
   color: rgba(255, 255, 255, 0.697);
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   text-align: baseline;
 }
 
@@ -461,8 +461,8 @@ section {
   animation-duration: 2s;
 }
 #circle-five-two {
-  top: 50dvh;
-  left: 60dvw;
+  top: 60dvh;
+  left: 50dvw;
   animation-delay: 2.2s;
   animation-duration: 2s;
 }
@@ -473,8 +473,8 @@ section {
   animation-duration: 2s;
 }
 #circle-six-two {
-  top: 10dvh;
-  left: 24dvw;
+  top: 60dvh;
+  left: 40dvw;
   animation-delay: 2.6s;
   animation-duration: 2s;
 }
